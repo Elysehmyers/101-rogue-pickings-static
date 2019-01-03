@@ -1,0 +1,169 @@
+/************ BASE STYLE ***************/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: black;
+  background: white;
+  text-align: left;
+}
+
+@font-face {
+  font-family: 'wisdom';
+  src: url('../fonts/wisdom.otf');
+  font-weight: normal;
+}
+
+header {
+  height: 400px;
+}
+
+#about {
+  height: 150px;
+}
+
+#menu, #reviews, #contact {
+  height: 205px;
+}
+
+h4 {
+  font-size: 12px;
+  line-height: 25px;
+  text-transform: uppercase;
+  padding-top: 5px;
+}
+
+footer {
+  height: 80px;
+}
+
+/************* GRID *******************/
+
+.full-width{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width-1, .third-width-2, .third-width-3  {
+  width: 399px;
+  float: left;
+  border-top: 1px solid #dedbdc;
+  border-bottom: 1px solid #dedbdc;
+}
+
+.third-width-2 {
+  border-left: 1px solid #dedbdc;
+  border-right: 1px solid #dedbdc;
+}
+
+
+/************ HEADER ******************/
+
+header h2 {
+  font-size: 30px;
+  line-height: 23px
+  font-weight: bold;
+}
+
+span.h2-alt-color {
+  color: #77a466;
+}
+
+header nav {
+  float: right;
+  margin-top: 12px;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+header a {
+  color: #77a466;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: bold;
+  padding-left: 25px;
+}
+
+header img {
+  border-top: 3px solid #77a466;
+  border-bottom: 3px solid #77a466;
+  clear: both;
+}
+
+/*************** ABOUT ******************/
+
+#about h3 {
+  font-size: 18px;
+  line-height: 23px;
+  color: #77a466;
+  text-transform: uppercase;
+}
+
+#about p {
+  line-height: 25px;
+}
+
+/**************** MENU ********************/
+
+
+#menu p {
+  color: #77a466;
+  line-height: 18px;
+
+}
+
+/**************** REVIEWS ******************/
+
+#reviews p {
+  font-size: 16px;
+  line-height: 25px;
+  padding: 0 25px;
+}
+
+#reviews h4 {
+  padding-left: 25px;
+}
+
+/**************** CONTACT ******************/
+
+#contact p {
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 25px;
+}
+
+#contact h4 {
+  padding-left: 25px;
+}
+
+/***************** FOOTER ******************/
+
+footer {
+  clear: both;
+}
+
+footer h3 {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 31px 0px;
+}
+
+span.alt-style {
+  color: #77a466;
+  text-transform: none;
+  font-family: 'wisdom';
+  font-weight: normal;
+}

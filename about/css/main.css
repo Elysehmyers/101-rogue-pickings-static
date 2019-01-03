@@ -1,0 +1,67 @@
+/************ BASE STYLE ***************/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: black;
+  background: white;
+  text-align: left;
+}
+
+/************* GRID *******************/
+
+.full-width{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px
+  float: left;
+}
+
+/************* HEADER ******************/
+
+header h2 {
+  font-size: 30px;
+  line-height: 23px
+  font-weight: bold;
+}
+
+span.h2-alt-color {
+  color: #77a466;
+}
+
+span.h2-alt-weight {
+  font-weight: normal;
+}
+
+header nav {
+  float: right;
+  margin-top: 12px;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+header a {
+  color: #77a466;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: bold;
+  padding-left: 25px;
+}
+
+/***************  MAIN *******************/
