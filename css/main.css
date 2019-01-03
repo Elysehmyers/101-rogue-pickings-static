@@ -2,10 +2,12 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  font-size: 1.28vw;
   color: black;
   background: white;
   text-align: left;
+  max-width: 1250px;
+  width: 100%
 }
 
 @font-face {
@@ -26,13 +28,6 @@ header {
   height: 205px;
 }
 
-h4 {
-  font-size: 12px;
-  line-height: 25px;
-  text-transform: uppercase;
-  padding-top: 5px;
-}
-
 footer {
   height: 80px;
 }
@@ -40,17 +35,18 @@ footer {
 /************* GRID *******************/
 
 .full-width{
-  width: 1200px;
-  margin: 0 auto;
+  width: 100%;
+  margin:0 auto;
+
 }
 
 .half-width {
-  width: 600px;
+  width: 50%;
   float: left;
 }
 
 .third-width-1, .third-width-2, .third-width-3  {
-  width: 399px;
+  width: 33.2%;
   float: left;
   border-top: 1px solid #dedbdc;
   border-bottom: 1px solid #dedbdc;
@@ -65,9 +61,11 @@ footer {
 /************ HEADER ******************/
 
 header h2 {
-  font-size: 30px;
-  line-height: 23px
+  font-size: 2.4vw;
+  line-height: 1.84vw;
   font-weight: bold;
+  margin-left: 5%;
+
 }
 
 span.h2-alt-color {
@@ -77,6 +75,7 @@ span.h2-alt-color {
 header nav {
   float: right;
   margin-top: 12px;
+  margin-right: 5%;
 }
 
 header nav ul {
@@ -91,62 +90,80 @@ header a {
   color: #77a466;
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 14px;
-  line-height: 23px;
+  font-size: 1.12vw;
+  line-height: 1.84vwpx;
   font-weight: bold;
-  padding-left: 25px;
+  padding-left: 25%;
 }
 
 header img {
   border-top: 3px solid #77a466;
   border-bottom: 3px solid #77a466;
   clear: both;
+  margin: 0 2%;
 }
 
 /*************** ABOUT ******************/
 
 #about h3 {
-  font-size: 18px;
-  line-height: 23px;
+  font-size: 1.44vw;
+  line-height: 1.84vw;
   color: #77a466;
   text-transform: uppercase;
+  margin: 0 2%;
+
 }
 
 #about p {
-  line-height: 25px;
+  line-height: 2vw;
+  margin: 1% 2%;
 }
 
 /**************** MENU ********************/
 
+h4 {
+  font-size: 0.96vw;
+  line-height: 2vw;
+  text-transform: uppercase;
+  margin: 5%;
+  text-align: center;
+}
 
 #menu p {
   color: #77a466;
-  line-height: 18px;
+  line-height: 1.44vw;
+  margin: 5%;
+  text-align: center;
 
 }
 
 /**************** REVIEWS ******************/
 
 #reviews p {
-  font-size: 16px;
-  line-height: 25px;
-  padding: 0 25px;
+  font-size: 1.28vw;
+  line-height: 2vw;
+  margin: 5%;
+  text-align: center;
 }
 
 #reviews h4 {
-  padding-left: 25px;
+  margin: 5%;
+  text-align: center;
+
 }
 
 /**************** CONTACT ******************/
 
 #contact p {
-  font-size: 16px;
-  line-height: 24px;
-  padding-left: 25px;
+  font-size: 1.28vw;
+  line-height: 1.92vwpx;
+  margin: 5%;
+  text-align: center;
 }
 
 #contact h4 {
-  padding-left: 25px;
+  margin: 5%;
+  text-align: center;
 }
 
 /***************** FOOTER ******************/
