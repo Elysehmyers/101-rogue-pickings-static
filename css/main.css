@@ -5,9 +5,11 @@ body {
   font-size: 1.28vw;
   color: black;
   background: white;
-  max-width: 1250px;
+  max-width: 1200px;
   width: 100%;
   overflow-x: hidden;
+  max-height: 835px;
+  height:100%;
 }
 
 @font-face {
@@ -29,7 +31,7 @@ header {
 }
 
 footer {
-  height: 80px;
+  height: 20px
 }
 
 /************* GRID *******************/
@@ -62,7 +64,7 @@ header h2 {
   font-size: 2.4vw;
   line-height: 1.84vw;
   font-weight: bold;
-  margin-left: 5%;
+  margin: 5%;
 
 }
 
@@ -72,7 +74,7 @@ span.h2-alt-color {
 
 header nav {
   float: right;
-  margin-top: 12px;
+  margin: 5%;
 }
 
 header nav ul {
@@ -109,7 +111,7 @@ header img {
   line-height: 1.84vw;
   color: #77a466;
   text-transform: uppercase;
-  margin: 0 2%;
+  margin: 2%;
 
 }
 
@@ -126,6 +128,7 @@ h4 {
   text-transform: uppercase;
   margin: 5%;
   text-align: center;
+
 }
 
 #menu p {
@@ -133,7 +136,7 @@ h4 {
   line-height: 1.44vw;
   margin: 5%;
   text-align: center;
-  width: 100%;
+  width: 95%;
 
 }
 
@@ -144,7 +147,7 @@ h4 {
   line-height: 2vw;
   margin: 5%;
   text-align: center;
-  width: 100%;
+  width: 98%;
 }
 
 #reviews h4 {
@@ -160,6 +163,7 @@ h4 {
   line-height: 1.92vwpx;
   margin: 5%;
   text-align: center;
+  width: 95%;
 }
 
 #contact h4 {
@@ -176,7 +180,7 @@ footer {
 footer h3 {
   text-align: center;
   text-transform: uppercase;
-  padding: 31px 0px;
+  margin: 22%;
 }
 
 span.alt-style {
